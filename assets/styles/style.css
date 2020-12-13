@@ -1,0 +1,98 @@
+
+
+*{
+	font-family: 'Pacifico', cursive;;
+}
+
+body{
+	background:url(.././img/background.jpg);
+	height:100vh; 
+    background-size: cover;
+}
+
+
+/*logo*/
+.logo{
+	border-radius: 5px;
+	box-shadow: 0 0 10px;
+
+}
+
+/*cabecera*/
+nav{
+	background-color:#FB1919;
+}
+
+
+h1{
+	color:white;
+}
+
+/*main*/
+ #defaultCanvas0{
+	width: 550px !important;
+	height: 350px !important;
+	padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   box-shadow: 0 0 10px;
+     border-radius: 5px;
+}
+
+button{
+margin-left: 45% !important;
+margin-top: 7px !important;
+background: #F90000; 
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 3px solid #FB1919;
+	padding: 10px 15px;
+	border-radius: 3px;
+
+}
+
+button:hover
+{
+    border:1px solid #FB1919;
+    color: rgb(255, 255, 255);
+    background: #F90000;
+   transform: scale(1.1, 1.1);
+   transition: all 500ms;
+   border-radius: 3px;
+}
+
+
+.result{
+	width: 220px;
+	height: 60px;
+	margin-bottom:10px;
+	box-shadow: 0 0 10px;
+     border-radius: 5px;
+     background: white;
+     margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+
+/*pie DE PAGINA*/
+
+footer {
+	height: 20px;
+	background-color: #FB1919;
+	margin-top: 35px;
+	color:#fff;
+	font-weight: 800;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-top: 20px;
+}
